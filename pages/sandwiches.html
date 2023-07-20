@@ -4,157 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo Listo</title>
-    <link rel="icon" href="images/todo listo blanco.ico">
-    <link rel="stylesheet" href="../estilos.css">
+    <meta name="description" content="Comidas para delivery y rotisería: sabores auténticos a tu puerta | Pedido online | Menú variado | Todo Listo Rotiseria">
+    <title>Todo Listo - Sandwiches</title>
+    <link rel="icon" href="../images/todo listo blanco.ico">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a1571aecc7.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-primary">
-
-    <header class="header">
-        <img  class="imagen-top" src="https://media.istockphoto.com/id/1460917949/es/foto/fotos-de-comida-varios-platos-principales-aperitivos-postres-etc.jpg?s=2048x2048&w=is&k=20&c=7FceKj-JqSE6MVkvNGlKoaeBj3Ft7kQRoOwc9AWzj1U=" alt="imagen de sandwitch">
+<body>
+    
+    <header class="header_sandwiches">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../images/sandwich_header.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/sandwich_header_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/sandwich_header_3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
-    <nav class="navbar bg-body-tertiary">
-        <form class="container-fluid justify-content-start">
-        <button class="btn btn-outline-success me-2" type="button"><a href="#contacto">Contacto</a></button>
-        <button class="btn btn-outline-success me-2" type="button"><a href="/index.html">Menu</a></button>
-        </form>
+
+    <nav class="barra-nav">
+        <a href="#contacto">Contacto</a>
+        <a href="../index.html">Menu</a>
     </nav>
 
-    <main class="main">
-    <div class="presentacion">
-        <h1 class="titulodepresentacion">Sandwiches</h1>
-        <p class="parrafodepresentacion">
-            ¡He aqui los sandwiches más ricos del mundo! 
-            Hablamos de todo tipo de lomos y hamburguesas acompañados de sus inseparables papas francesas con la guarnicion que prefieras...
-            ¿Sera Cheddar o Ketchup? ¿O simplemente la milenaria Mayonesa casera de la nona?
-        </p>
-    </div>
-
-    <div class="container">
-        <div class="row">
-    
-            <div class="card col-md-6" style="width: 18rem;">
-                <img class="card-img-top" width="200px" src="https://media.istockphoto.com/id/519687180/es/foto/s%C3%A1ndwich-de-cerdo.jpg?s=2048x2048&w=is&k=20&c=N26B6PAFp0ueDxq6suMZr4wc27nZEb6sOC_-Gm2i4t8=" alt="lomo de ternera">
-                <div class="card-body">
-                <h5 class="card-title">Sánguche de Lomo</h5>
-                <p class="card-text">Un sánguche perfectamente ensamblado, perfectamente condimentado y con una cocción de sus ingredientes sin igual. 
-                    No hay mucho que decir al respecto. Su calidad hace dificil la tarea de describirlo. ¡Probalo y despues nos contas!</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-
-            <div class="card col-md-6" style="width: 18rem;">
-                <img class="card-img-top" src="https://media.istockphoto.com/id/519687180/es/foto/s%C3%A1ndwich-de-cerdo.jpg?s=2048x2048&w=is&k=20&c=N26B6PAFp0ueDxq6suMZr4wc27nZEb6sOC_-Gm2i4t8=" alt="lomo de ternera">
-                <div class="card-body">
-                <h5 class="card-title">Sánguche de Milanesa</h5>
-                <p class="card-text">Milanesas bien condimentadas, bien fritadas y, encima, haciendo una simbiosis
-                    perfecta con los tomates, huevos, lechuga y aderezo. ¿¡Entre dos panes!?
-                    Demos paso al sobervio de un clásico</p></p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-    
+    <section class="section_presentacion">
+        <div class="presentacion">
+            <h1 class="titulo_presentacion">Sandwiches</h1>
+            <p class="parrafo_presentacion">
+                ¡He aqui los sandwiches más ricos del mundo! 
+                Hablamos de todo tipo de lomos y hamburguesas acompañados de sus inseparables papas francesas con la guarnicion que prefieras...
+                ¿Sera Cheddar o Ketchup? ¿O simplemente la milenaria Mayonesa casera de la nona?
+            </p>
         </div>
-        <div class="row">
-            <div class="card col-md-6" style="width: 18rem;">
-                <img class="card-img-top" src="https://media.istockphoto.com/id/519687180/es/foto/s%C3%A1ndwich-de-cerdo.jpg?s=2048x2048&w=is&k=20&c=N26B6PAFp0ueDxq6suMZr4wc27nZEb6sOC_-Gm2i4t8=" alt="lomo de ternera">
-                <div class="card-body">
-                <h5 class="card-title">Sánguche de Lomo</h5>
-                <p class="card-text">Milanesas bien condimentadas, bien fritadas y, encima, haciendo una simbiosis<br> 
-                    perfecta con los tomates, huevos, lechuga y aderezo. ¿¡Entre dos panes!? <br>
-                    Demos paso al sobervio de un clásico</p></p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    </section>
+
+    <main class="main_sandwiches">
+        
+        <div class="container">
+            <div class="row justify-content-between">
+            
+                <div class="col-lg-4 col-md-12 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img class="" src="https://media.istockphoto.com/id/519687180/es/foto/s%C3%A1ndwich-de-cerdo.jpg?s=2048x2048&w=is&k=20&c=N26B6PAFp0ueDxq6suMZr4wc27nZEb6sOC_-Gm2i4t8=" alt="lomo de ternera">
+                        <div class="card-body">
+                            <h5 class="card-title">Sánguche de Lomo</h5>
+                            <p class="card-text">Un sánguche perfectamente ensamblado, perfectamente condimentado y con una cocción de sus ingredientes sin igual. No hay mucho que decir al respecto. Su calidad hace dificil la tarea de describirlo. ¡Probalo y despues nos contas!</p>
+                            <p><b>$xxxx</b></p>
+
+                        <!-- <a href="#" class="btn btn-primary w-100">Go somewhere</a> -->
+                        </div>
+                    </div>
                 </div>
+            
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://media.istockphoto.com/id/1282700770/es/foto/sandwich-de-carne-con-verduras.jpg?s=2048x2048&w=is&k=20&c=HAgi99s30K0iRXJMD4f50O9K17keTxGUgZ0eBhq7JBA=" alt="sanguche de milanesa">
+                        <div class="card-body">
+                            <h5 class="card-title">Sánguche de Milanesa</h5>
+                            <p class="card-text">Milanesas bien condimentadas, bien fritadas y, encima, haciendo una simbiosis
+                            perfecta con los tomates, huevos, lechuga y aderezo. ¿¡Entre dos panes!?
+                            Demos paso al sobervio de un clásico</p>
+                            <p><b>$xxxx</b></p>
+
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://images.pexels.com/photos/1885578/pexels-photo-1885578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="sanguche de jamon crudo">
+                        <div class="card-body">
+                            <h5 class="card-title">Sánguche de jamon crudo</h5>
+                            <p class="card-text">Milanesas bien condimentadas, bien fritadas y, encima, haciendo una simbiosis
+                                perfecta con los tomates, huevos, lechuga y aderezo. ¿¡Entre dos panes!? 
+                            Demos paso al sobervio de un clásico</p>
+                            <p><b>$xxxx</b></p>
+
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            
             </div>
 
-            <div class="card col-md-6" style="width: 18rem;">
-                <img class="card-img-top" src="https://media.istockphoto.com/id/519687180/es/foto/s%C3%A1ndwich-de-cerdo.jpg?s=2048x2048&w=is&k=20&c=N26B6PAFp0ueDxq6suMZr4wc27nZEb6sOC_-Gm2i4t8=" alt="lomo de ternera">
-                <div class="card-body">
-                <h5 class="card-title">Sánguche de Lomo</h5>
-                <p class="card-text">Un sánguche perfectamente ensamblado, perfectamente condimentado y con una cocción de sus ingredientes sin igual. 
-                    No hay mucho que decir al respecto. Su calidad hace dificil la tarea de describirlo. ¡Probalo y despues nos contas!</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="row justify-content-between">
+            
+                <div class="col-lg-4 col-md-12 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://www.comedera.com/wp-content/uploads/2021/06/sandwich-de-milanesa.jpg" alt="lomo de ternera">
+                        <div class="card-body">
+                            <h5 class="card-title">Sánguche de Milanesa</h5>
+                            <p class="card-text">Un sánguche perfectamente ensamblado, perfectamente condimentado y con una cocción de sus ingredientes sin igual. 
+                            No hay mucho que decir al respecto. Su calidad hace dificil la tarea de describirlo. ¡Probalo y despues nos contas!</p>
+                            <p><b>$xxxx</b></p>
+
+                        <!-- <a href="#" class="btn btn-primary w-100">Go somewhere</a> -->
+                        </div>
+                    </div>
                 </div>
+            
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://media.istockphoto.com/id/523179929/es/foto/hamburguesa-de-pollo-un-s%C3%A1ndwich.jpg?s=2048x2048&w=is&k=20&c=NXf1PkJPiYWXvLgJbSe_u2l9zo8qIRgk4DK3S3eOpUQ=" alt="sanguche de suprema">
+                        <div class="card-body">
+                            <h5 class="card-title">Sánguche de Suprema</h5>
+                            <p class="card-text">Una tremenda suprema de pollo que te va a hacer bailar el paladar con sutiles toques de jugo de limon y peregil</p>
+                            <p><b>$xxxx</b></p>
+
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="https://media.istockphoto.com/id/1448322070/es/foto/sabrosa-hamburguesa-fresca-en-mesa-de-madera.jpg?s=2048x2048&w=is&k=20&c=GDYJsSTBvWV8o6vJA0yFmB1f2dsELEuLB_9zkUyk6KM=" alt="Hamburguesa">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamburguesa</h5>
+                            <p class="card-text">Hablando de ingredientes...¿Que no tendrán estas hamburguesas? Huevo de campo, pimienta, pimienta negra, sal marina, peregil y carne trozada de PRIMERA</p>
+                            <p><b>$xxxx</b></p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            
             </div>
 
         </div>
-    </div>
+         <!--contacto-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <ul class="ul_propuestas">
-        <li class="propuestas">
-            <h3>Sánguche de Lomo</h3>
-                <img src="https://media.istockphoto.com/id/519687180/es/foto/s%C3%A1ndwich-de-cerdo.jpg?s=2048x2048&w=is&k=20&c=N26B6PAFp0ueDxq6suMZr4wc27nZEb6sOC_-Gm2i4t8=" alt="lomo de ternera">
-                <p>Un sánguche perfectamente ensamblado, perfectamente condimentado y con una cocción de sus ingredientes sin igual.<br> 
-                    No hay mucho que decir al respecto. Su calidad hace dificil la tarea de describirlo. ¡Probalo y despues nos contas!</p>
-                <p><b>$xxxx</b></p>
-        </li>
-        <li class="propuestas">
-            <h3>Sánguche de Milanesa</h3>
-            <img src="https://media.istockphoto.com/id/1282700770/es/foto/sandwich-de-carne-con-verduras.jpg?s=2048x2048&w=is&k=20&c=HAgi99s30K0iRXJMD4f50O9K17keTxGUgZ0eBhq7JBA=" alt="sanguche de milanesa">
-            <p>Milanesas bien condimentadas, bien fritadas y, encima, haciendo una simbiosis<br> 
-                perfecta con los tomates, huevos, lechuga y aderezo. ¿¡Entre dos panes!? <br>
-                Demos paso al sobervio de un clásico</p>
-            <p><b>$xxxx</b></p>
-        </li>
-        <li class="propuestas">
-            <h3>Sánguche de suprema</h3>
-            <img src="https://media.istockphoto.com/id/523179929/es/foto/hamburguesa-de-pollo-un-s%C3%A1ndwich.jpg?s=2048x2048&w=is&k=20&c=NXf1PkJPiYWXvLgJbSe_u2l9zo8qIRgk4DK3S3eOpUQ=" alt="suprema de pollo">
-            <p>Una tremenda suprema de pollo que te va a hacer bailar el paladar <br>con sutiles toques de jugo de limon y peregil</p>
-            <p><b>$xxxx</b></p>
-        </li>
-        <li class="propuestas">
-            <h3>Hamburguesa</h3>
-            <img src="https://media.istockphoto.com/id/1448322070/es/foto/sabrosa-hamburguesa-fresca-en-mesa-de-madera.jpg?s=2048x2048&w=is&k=20&c=GDYJsSTBvWV8o6vJA0yFmB1f2dsELEuLB_9zkUyk6KM=" alt="hamburguesa">
-            <p>Hablando de ingredientes... <br>¿Que no tendrán estas hamburguesas? <br>Huevo de campo, pimienta, pimienta negra, sal marina, peregil y carne trozada de PRIMERA</p>
-            <p><b>$xxxx</b></p>
-        </li>
-    </ul> -->
-</div>
-<!--contacto-->
-<div class="pedir_comida">
-    <h5>Pedir comida</h5>
-    <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> 
-        <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-    
-</div>
-</a> 
+         <div class="pedir_comida">
+            <a href="https://wa.me/543562438407?text=Me%20gustaría%20saber%20el%20precio%20del%20producto" class="whatsapp" target="_blank"> 
+                <i class="fa fa-whatsapp whatsapp-icon"></i>
+            </a>
+        </div>
     </main>
+
     <footer class="footer">
-        <!--contacto-->
         <h3 id="contacto">Contacto</h3>
         <div class="footer__flex">
             <p>Instagram: @holaxd</p>
@@ -162,6 +166,9 @@
             <p>Correo electrónico: holamundo@helloworld.com</p>
         </div>
     </footer>
+
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init()</script>
 </body>
 </html>

@@ -4,74 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo Listo</title>
-    <link rel="icon" href="images/todo listo blanco.ico">
-    <link rel="stylesheet" href="../estilos.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Todo Listo - Parrilla</title>
+    <link rel="icon" href="../images/todo listo blanco.ico">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body class="body">
     <!--presentacion-->
     <header class="header">
-        <img class="imagen-top" src="https://media.istockphoto.com/id/1468582821/es/foto/ma%C3%ADz-caliente.jpg?s=2048x2048&w=is&k=20&c=UDK7ZGYWoF6nrkofFM-IWV09Sa3JOvGWfP6ZH_lNzpY=" alt="parrillada">
+        <img class="imagen-top" src="https://images.pexels.com/photos/1482803/pexels-photo-1482803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="parrillada">
     </header>
-    <nav>
-        <div class="barra-de-color">
-            <a href="#contacto">Contacto</a>
-            <a href="../index.html">Menu</a>
-        </div>
-        
+
+    <nav class="barra-nav">
+        <a href="#contacto">Contacto</a>
+        <a href="../index.html">Menu</a>
     </nav>
-    <main class="main">
-        <!--comidas-->
+        
+    <section class="section_presentacion">
         <div class="presentacion">
-            <h1 class="titulodepresentacion">Parrilla</h1>
-            <p class="parrafodepresentacion">
-                La carne mas tierna, los embutidos mejor condimentados, pareceria mentira <br>
-                la magia que le pone el viejo Vega a la hora de asar, prueben esta parrilla <br>
-                porque jamás viviran algo igual.
+            <h1 class="titulo_presentacion">Parrilla</h1>
+            <p class="parrafo_presentacion">
+                La carne mas tierna, los embutidos mejor condimentados, pareceria mentira 
+                la magia que le pone el viejo Vega a la hora de asar, prueben esta parrilla 
+                porque jamás viviran algo igual
             </p>
         </div>
-<div class="grids_comidas">
-    <ul class="ul_propuestas">
-        <li class="propuestas">
-            <h3>Vacio de Vaca</h3>
-                <img src="https://media.istockphoto.com/id/1411524466/es/foto/bistec-de-flanco-a-la-parrilla-con-salsa-chimichurri-en-una-sart%C3%A9n-a-la-parrilla.jpg?s=2048x2048&w=is&k=20&c=1652T79_wKOODznYDtd1OhEY0g2xbaG3S4pmyUOdAXk=" alt="vacio de vaca">
-                <p>Carne de primera asada por el viejo Vega, no hay nadie mas dedicado <br>
-                    a lo que hace, la condimentacion es precisa y las cocción más aun.</p>
-                <p><b>$xxxx</b></p>
-        </li>
-        <li class="propuestas">
-            <h3>Costilla de Vaca</h3>
-                <img src="https://media.istockphoto.com/id/1391841327/es/foto/parrilla-de-carb%C3%B3n-al-aire-libre-con-carne-de-vaca-costillas-y-embutidos.jpg?s=2048x2048&w=is&k=20&c=OtBgvpZ0xJkMojK9xdFJfZPfkSpiO1pYou_u-nKSXQM=" alt="costilla asada">
-                <p>Costilla de primera asada a punto caramelo, tierna y rica.</p>
-                <p><b>$xxxx</b></p>
-        </li>
-        <li class="propuestas">
-            <h3>Chorizo</h3>
-                <img src="https://media.istockphoto.com/id/1455779895/es/foto/chorizos-a-la-parrilla-en-tabla-de-cortar-salchichas-t%C3%ADpicas-argentinas-hechas-con-carne-mixta.jpg?s=2048x2048&w=is&k=20&c=-IYWro7634xSXBU5mLVWkMV944t1ft4Cja_EmhGwWKA=" alt="chorizo">
-                <p>Chorizos con carne y grasa en proporciones justas, haciendolos los mas ricos.</p>
-                <p><b>$xxxx</b></p>
-        </li>
-        <li class="propuestas">
-            <h3>Morcilla</h3>
-                <img src="https://media.istockphoto.com/id/1397735504/es/foto/bobinas-de-salchicha-a-la-barbacoa-y-una-morcilla-en-un-fuego-de-barbacoa-caliente-comida.jpg?s=2048x2048&w=is&k=20&c=4KqtV4WeujBON2I1tqhSfN_wtwPdp9DzTMy4wYKMl4o=" alt="morcilla">
-                <p>Una morcilla llena de ingredientes, protagonistas de la danza que provocara en tu paladar.</p>
-                <p><b>$xxxx</b></p>
-        </li>
-    </ul>
-</div>
-<!--contacto-->
-<div class="pedir_comida">
-    <h5>Pedir comida</h5>
-    <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> 
-        <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-    </a>
-</div>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="row justify-content-between">
+            
+                <div class="col-lg-4 col-md-12 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img class="" src="https://media.istockphoto.com/id/1411524466/es/foto/bistec-de-flanco-a-la-parrilla-con-salsa-chimichurri-en-una-sart%C3%A9n-a-la-parrilla.jpg?s=2048x2048&w=is&k=20&c=1652T79_wKOODznYDtd1OhEY0g2xbaG3S4pmyUOdAXk=" alt="vacio de vaca">
+                        <div class="card-body">
+                            <h5 class="card-title">Vacio de Vaca</h5>
+                            <p class="card-text">Carne de primera asada por el viejo Vega, no hay nadie mas dedicado a lo que hace, la condimentacion es precisa y las cocción más aun.</p>
+                            <p><b>$xxxx</b></p>
+    
+                        <!-- <a href="#" class="btn btn-primary w-100">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://media.istockphoto.com/id/1391841327/es/foto/parrilla-de-carb%C3%B3n-al-aire-libre-con-carne-de-vaca-costillas-y-embutidos.jpg?s=2048x2048&w=is&k=20&c=OtBgvpZ0xJkMojK9xdFJfZPfkSpiO1pYou_u-nKSXQM=" alt="costilla asada">
+                        <div class="card-body">
+                            <h5 class="card-title">Costilla de Vaca</h5>
+                            <p class="card-text">Costilla de primera asada a punto caramelo, tierna y rica.</p>
+                            <p><b>$xxxx</b></p>
+    
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                    
+                </div>
+    
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://media.istockphoto.com/id/1455779895/es/foto/chorizos-a-la-parrilla-en-tabla-de-cortar-salchichas-t%C3%ADpicas-argentinas-hechas-con-carne-mixta.jpg?s=2048x2048&w=is&k=20&c=-IYWro7634xSXBU5mLVWkMV944t1ft4Cja_EmhGwWKA=" alt="chorizo">
+                        <div class="card-body">
+                            <h5 class="card-title">Chorizo</h5>
+                            <p class="card-text">Chorizos con carne y grasa en proporciones justas, haciendolos los mas ricos.</p>
+                            <p><b>$xxxx</b></p>
+    
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+    
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-md-12 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://media.istockphoto.com/id/1397735504/es/foto/bobinas-de-salchicha-a-la-barbacoa-y-una-morcilla-en-un-fuego-de-barbacoa-caliente-comida.jpg?s=2048x2048&w=is&k=20&c=4KqtV4WeujBON2I1tqhSfN_wtwPdp9DzTMy4wYKMl4o=" alt="morcilla">
+                        <div class="card-body">
+                            <h5 class="card-title">Morcilla</h5>
+                            <p class="card-text">Una morcilla llena de ingredientes, protagonistas de la danza que provocara en tu paladar</p>
+                            <p><b>$xxxx</b></p>
+    
+                        <!-- <a href="#" class="btn btn-primary w-100">Go somewhere</a> -->
+                        </div>
+                    </div>
+    
+            
+                </div>
+            </div>
+        </div>
+
+         <!--contacto-->
+        <div class="pedir_comida">
+            <a href="https://wa.me/543562438407?text=Me%20gustaría%20saber%20el%20precio%20del%20producto" class="whatsapp" target="_blank"> 
+                <i class="fa fa-whatsapp whatsapp-icon"></i>
+            </a>
+        </div>
     </main>
+    
     <footer class="footer">
-        <!--contacto-->
         <h3 id="contacto">Contacto</h3>
         <div class="footer__flex">
             <p>Instagram: @holaxd</p>
@@ -79,5 +113,10 @@
             <p>Correo electrónico: holamundo@helloworld.com</p>
         </div>
     </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init()</script>
 </body>
 </html>
+

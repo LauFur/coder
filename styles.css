@@ -1,0 +1,201 @@
+@font-face {
+  font-family: montserratlightitalic;
+  src: url(./fonts/Montserrat-LightItalic.ttf);
+}
+@font-face {
+  font-family: montserratextrabold;
+  src: url(./fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+  font-family: robotobold;
+  src: url(./fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: ropasans;
+  src: url(./fonts/RopaSans-Regular.ttf);
+}
+body {
+  background-image: url(./images/Todo%20Listo%20Fondo.png);
+}
+
+.header .imagen-top {
+  width: 100%;
+  height: 20rem;
+  background-size: contain;
+  background-position: center center;
+}
+
+@media (max-width: 768px) {
+  .section_index {
+    flex-direction: column;
+  }
+}
+.barra-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  padding: 1rem 0;
+}
+.barra-nav a {
+  border: 5px solid rgb(243, 239, 224);
+  padding: 5px 10px;
+  color: rgb(243, 239, 224);
+  background-color: rgb(67, 66, 66);
+  text-decoration: none;
+  font-family: "ropasans", serif;
+  font-size: 30px;
+}
+.barra-nav a:hover {
+  background-color: rgb(36, 35, 35);
+}
+
+.section_index {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.section_index .videopreparacion {
+  margin-top: 10px;
+  border: rgb(34, 34, 34);
+}
+.section_index .videopreparacion iframe {
+  width: 500px;
+  height: 315px;
+}
+.section_index .presentacion {
+  width: auto;
+  background-color: rgb(243, 239, 224);
+  text-align: center;
+  border: 5px solid rgb(67, 66, 66);
+}
+.section_index .presentacion .titulo_presentacion {
+  font-family: "montserratextrabold", system-ui;
+  font-size: 52px;
+  color: rgb(34, 34, 34);
+  text-align: center;
+  margin-top: 10px;
+}
+.section_index .presentacion .parrafo_presentacion {
+  font-family: "ropasans", serif;
+  font-size: 32px;
+  color: rgb(34, 34, 34);
+}
+
+@media (max-width: 768px) {
+  .presentacion h1 {
+    font-size: 1.5rem;
+  }
+  .presentacion p {
+    font-size: 1rem;
+  }
+  .videopreparacion iframe {
+    width: auto;
+  }
+}
+.main_botones {
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+.main_botones img {
+  height: 400px;
+  width: 500px;
+}
+.main_botones .main_secciones {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: rgb(243, 239, 224);
+  border: 5px solid rgb(67, 66, 66);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.main_botones .main_secciones h2 {
+  color: rgb(34, 34, 34);
+  font-size: 24px;
+}
+.main_botones .main_secciones .main__secciones-botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+.main_botones .main_secciones .main__secciones-botones .comidas {
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(67, 66, 66);
+  font-family: "ropasans", serif;
+  font-size: 30px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: rgb(243, 239, 224);
+}
+.main_botones .main_secciones .main__secciones-botones .comidas:hover {
+  transform: scale(1.3);
+  background-color: rgb(48, 47, 47);
+}
+
+@media (max-width: 768px) {
+  .main_botones {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main_botones img {
+    width: auto;
+  }
+}
+.footer {
+  background-color: rgb(243, 239, 224);
+  font-family: "ropasans", "Times New Roman", Times, serif;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-weight: 800;
+}
+.footer .footer__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .footer .footer__flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+.header_sandwiches .carousel-inner img {
+  height: 25rem;
+  background-size: cover;
+}
+
+.section_presentacion {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.section_presentacion .presentacion {
+  width: 30rem;
+  background-color: rgb(243, 239, 224);
+  text-align: center;
+  border: 5px solid rgb(67, 66, 66);
+}
+.section_presentacion .presentacion .titulo_presentacion {
+  font-family: "montserratextrabold", system-ui;
+  font-size: 52px;
+  color: rgb(34, 34, 34);
+  text-align: center;
+  margin-top: 10px;
+}
+.section_presentacion .presentacion .parrafo_presentacion {
+  font-family: "ropasans", serif;
+  font-size: 32px;
+  color: rgb(34, 34, 34);
+}
+
+/*# sourceMappingURL=styles.css.map */

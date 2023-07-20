@@ -5,81 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo Listo</title>
-    <link rel="icon" href="images/todo listo blanco.ico">
-    <link rel="stylesheet" href="../estilos.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="../images/todo listo blanco.ico">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
-<body class="body">
+<body>
+
     <header class="header">
         <img class="imagen-top" src="https://media.istockphoto.com/id/1171946922/es/foto/empanadas.jpg?s=2048x2048&w=is&k=20&c=-zC9cGoR_bTjc7CQYxwBooSutBY5S6YMlwJ0TyYWPDI=" alt="presentacion panoramica">
     </header>
-    <nav>
-        <div class="barra-de-color">
-            <a href="#contacto">Contacto</a>
-            <a href="../index.html">Menu</a>
-        </div>
-        
+
+    <nav class="barra-nav">
+        <a href="#contacto">Contacto</a>
+        <a href="../index.html">Menu</a>
     </nav>
-    <main class="main">
+
+    <section class="section_presentacion">
         <div class="presentacion">
-            <h1 class="titulodepresentacion">Comidas Tradicionales</h1>
-            <p class="parrafodepresentacion">
+            <h1 class="titulo_presentacion">Comidas Tradicionales</h1>
+            <p class="parrafo_presentacion">
                 Las comidas más argentinas, sinonimos de patria y hermandad...
             </p>
         </div>
-        <!--comidas-->
-<div class="grids_comidas">
-    <ul class="ul_propuestas">
-        <li class="propuestas">
-            <h3>Pizza Comun</h3>
-                <img src="https://media.istockphoto.com/id/1421607041/es/foto/una-rebanada-de-pizza-italiana-caliente-con-queso-estirado-pizza-cuatro-quesos-con-albahaca.jpg?s=2048x2048&w=is&k=20&c=y2moixvjPWVcx8Y3i6b-JSNXRWrRJt6ptpJXtQlEEYA=" alt="pizza comun">
-                <p>Se trata de un pan plano horneado, habitualmente de forma redonda, <br>
-                    elaborado con harina de trigo, sal, agua y levadura, cubierto con salsa <br>
-                    de tomate y queso.</p>
-                <p><b>$xxxx</b></p>
-        </li>
-        <li class="propuestas">
-            <h3>Pizza Cuatro Quesos</h3>
-                <img src="https://media.istockphoto.com/id/1322309775/es/foto/four-cheese-pizza-o-quattro-formaggi-pizza-cubierto-con-salsa-de-tomate-mozzarella-gorgonzola.jpg?s=2048x2048&w=is&k=20&c=PpaEACTeclONpOcilf7O9-WfikrhjMnfaUIsHyYDJbk=" alt="pizza cuatro quesos">
-                <p>La pizza cuatro quesos, en italiano Pizza quattro formaggi es una variante <br>
-                    de pizza con cuatro quesos italianos, que generalmente son la mozarela, <br>
-                    el gorgonzola, el fontina y el parmesano. Todos estos quesos son fundibles. <br>
-                    Se derriten sobre una base de salsa de tomate, o también hay recetas sin tomate.</p>
-                <p><b>$xxxx</b></p>
-        </li>
-        <li class="propuestas">
-            <h3>Empanadas de Carne</h3>
-                <img src="https://media.istockphoto.com/id/1458046898/es/foto/empanadas-rellenas.jpg?s=2048x2048&w=is&k=20&c=tyYjnd3fIpVf41eoXEhvbfWqZgSAClWAChqgAdCInUg=" alt="empanadas de carne">
-                <p>Estas exquisitas empanadas de carne se preparan con un relleno de picadillo <br>
-                    de carne de res. El relleno o condumio de estas empanadas casera es muy <br>
-                    sencillo y delicioso, lleva carne molida de res, cebolla, ajo, orégano, comino, <br>
-                    achiote, sal, y pimienta.</p>
-                <p><b>$xxxx</b></p>
-        </li>
-        <li class="propuestas">
-            <h3>Empanadas de Jamon y Queso</h3>
-                <img src="https://media.istockphoto.com/id/1491729410/es/foto/alimentos.jpg?s=2048x2048&w=is&k=20&c=ADFjwyP9rqEV4PU2qITxhvDU-pAA07EVNIpbsK5fgnM=" alt="empanadas jyq">
-                <p>Te invitamos a probar estas empanadas de jamón, queso y cebolla, una reversión <br>
-                    de las clásicas empanadas de jamón y queso, donde le sumamos el delicioso sabor de la <br>
-                    cebolla. Asimismo, combinaremos cebolla blanca con verdeo para proporcionar a estas <br>
-                    empanadas una intensidad única.</p>
-                <p><b>$xxxx</b></p>
-        </li>
-    </ul>
-</div>
-<!--contacto-->
-<div class="pedir_comida">
-    <h5>Pedir comida</h5>
-    <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> 
-        <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-</a>
-
-</div>
+    </section>
+    
+    <main>
+        <div class="container">
+            <div class="row justify-content-between">
+            
+                <div class="col-lg-4 col-md-12 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://media.istockphoto.com/id/1421607041/es/foto/una-rebanada-de-pizza-italiana-caliente-con-queso-estirado-pizza-cuatro-quesos-con-albahaca.jpg?s=2048x2048&w=is&k=20&c=y2moixvjPWVcx8Y3i6b-JSNXRWrRJt6ptpJXtQlEEYA=" alt="pizza comun">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Comun</h5>
+                            <p class="card-text">Se trata de un pan plano horneado, habitualmente de forma redonda, elaborado con harina de trigo, sal, agua y levadura, cubierto con salsa de tomate y queso.</p>
+                            <p><b>$xxxx</b></p>
+                        <!-- <a href="#" class="btn btn-primary w-100">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://media.istockphoto.com/id/1322309775/es/foto/four-cheese-pizza-o-quattro-formaggi-pizza-cubierto-con-salsa-de-tomate-mozzarella-gorgonzola.jpg?s=2048x2048&w=is&k=20&c=PpaEACTeclONpOcilf7O9-WfikrhjMnfaUIsHyYDJbk=" alt="pizza cuatro quesos">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Cuatro Quesos</h5>
+                            <p class="card-text">La pizza cuatro quesos, en italiano Pizza quattro formaggi es una variante de pizza con cuatro quesos italianos, que generalmente son la mozarela, el gorgonzola, el fontina y el parmesano. Todos estos quesos son fundibles. Se derriten sobre una base de salsa de tomate, o también hay recetas sin tomate</p>
+                            <p><b>$xxxx</b></p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://media.istockphoto.com/id/1458046898/es/foto/empanadas-rellenas.jpg?s=2048x2048&w=is&k=20&c=tyYjnd3fIpVf41eoXEhvbfWqZgSAClWAChqgAdCInUg=" alt="empanadas de carne">
+                        <div class="card-body">
+                            <h5 class="card-title">Empanadas de Carne</h5>
+                            <p class="card-text">Estas exquisitas empanadas de carne se preparan con un relleno de picadillo de carne de res. El relleno o condumio de estas empanadas casera es muy sencillo y delicioso, lleva carne molida de res, cebolla, ajo, orégano, comino, achiote, sal, y pimienta.</p>
+                            <p><b>$xxxx</b></p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-md-12 mb-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://media.istockphoto.com/id/1491729410/es/foto/alimentos.jpg?s=2048x2048&w=is&k=20&c=ADFjwyP9rqEV4PU2qITxhvDU-pAA07EVNIpbsK5fgnM=" alt="empanadas jyq">
+                        <div class="card-body">
+                            <h5 class="card-title">Empanadas de Jamon y Queso</h5>
+                            <p class="card-text">Te invitamos a probar estas empanadas de jamón, queso y cebolla, una reversión de las clásicas empanadas de jamón y queso, donde le sumamos el delicioso sabor de la cebolla. Asimismo, combinaremos cebolla blanca con verdeo para proporcionar a estas empanadas una intensidad única.</p>
+                            <p><b>$xxxx</b></p>
+                        <!-- <a href="#" class="btn btn-primary w-100">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--contacto-->
+    
+         <div class="pedir_comida">
+            <a href="https://wa.me/543562438407?text=Me%20gustaría%20saber%20el%20precio%20del%20producto" class="whatsapp" target="_blank"> 
+                <i class="fa fa-whatsapp whatsapp-icon"></i>
+            </a>
+        </div>
     </main>
+
+    
     <footer class="footer">
-        <!--contacto-->
         <h3 id="contacto">Contacto</h3>
         <div class="footer__flex">
             <p>Instagram: @holaxd</p>
@@ -87,5 +103,15 @@
             <p>Correo electrónico: holamundo@helloworld.com</p>
         </div>
     </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init()</script>
 </body>
 </html>
+
+
+<main class="main_sandwiches">
+        
+    
+</main>
